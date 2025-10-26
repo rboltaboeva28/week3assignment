@@ -32,5 +32,5 @@ print(f"Subtotal: ${total:.2f}")
 if total >= 15.00:
     total -= 2.50
     print("Bulk rental discount: -$2.50")
-
+print(f"Final Total: ${total:.2f}")
 print("Thank you for your rental!")
